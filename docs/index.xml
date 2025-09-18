@@ -9,7 +9,7 @@
 <link>https://interludeone.com/</link>
 <atom:link href="https://interludeone.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.8.24</generator>
 <lastBuildDate>Mon, 02 Jun 2025 22:00:00 GMT</lastBuildDate>
 <item>
   <title>LLMs as Research Grunts: Surprisingly Useful, Even When They Don’t Get It ‘Right’</title>
@@ -25,7 +25,7 @@
 <div class="cell" data-layout-align="center">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"></span>
@@ -232,7 +232,7 @@ font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">legend.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"bottom"</span>)</span></code></pre></div>
+font-style: inherit;">"bottom"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -1245,15 +1245,15 @@ font-style: inherit;">"bottom"</span>)</span></code></pre></div>
 }
 </style>
 
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
-<tr class="header gt_heading">
-<th colspan="3" class="gt_heading gt_title gt_font_normal"><strong>HISCO Major Groups</strong></th>
+<tr class="gt_heading header">
+<td colspan="3" class="gt_heading gt_title gt_font_normal"><strong>HISCO Major Groups</strong></td>
 </tr>
-<tr class="odd gt_heading">
-<th colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">A table of the HISCO major groups</th>
+<tr class="gt_heading even">
+<td colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">A table of the HISCO major groups</td>
 </tr>
-<tr class="header gt_col_headings">
+<tr class="gt_col_headings header">
 <th id="HISCO Code" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">HISCO Code</th>
 <th id="HISCO Title" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">HISCO Title</th>
 <th id="Description" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Description</th>
@@ -1503,7 +1503,7 @@ This ensures 60 kWh is available without pushing the battery to absolute empty. 
 <section id="the-code" class="level3">
 <h3 class="anchored" data-anchor-id="the-code">The Code</h3>
 <p>If you’re interested in the code, here it is:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/**</span></span>
 <span id="cb1-2"><span class="co" style="color: #5E5E5E;
@@ -3502,7 +3502,7 @@ font-style: inherit;">export</span> <span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">default</span> CobbDouglasVisualizer<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">;</span></span></code></pre></div>
+font-style: inherit;">;</span></span></code></pre></div></div>
 
 
 </section>
@@ -3560,7 +3560,7 @@ font-style: inherit;">;</span></span></code></pre></div>
 <p>To my surprise, the model succeeded for most airports, delivering data for 44 out of 50 – a decent starting point.</p>
 <p>Here is an example of the JSON output for Heathrow Airport in London:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">    {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">    {</span>
 <span id="cb1-2">      <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"name"</span>: <span class="st" style="color: #20794D;
@@ -3687,7 +3687,7 @@ background-color: null;
 font-style: inherit;">8</span></span>
 <span id="cb1-28">        }</span>
 <span id="cb1-29">      ]</span>
-<span id="cb1-30">    },</span></code></pre></div>
+<span id="cb1-30">    },</span></code></pre></div></div>
 </div>
 </section>
 <section id="building-the-transit-trek-app" class="level2 page-columns page-full">
@@ -3708,9 +3708,6 @@ This section dives into the insights. One chart highlights the difference betwee
 <li><p><strong>Data Tab:</strong><br>
 Here, users can inspect the raw and flattened datasets, ensuring transparency and inviting further exploration.</p></li>
 </ul>
-<div>
-
-</div>
 <div class="column-page quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
@@ -3795,7 +3792,7 @@ A more robust quality assurance process could update outdated figures—such as 
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
@@ -4194,7 +4191,7 @@ font-style: inherit;">guide_legend</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">reverse =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">TRUE</span>))</span></code></pre></div>
+font-style: inherit;">TRUE</span>))</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -4650,10 +4647,10 @@ font-style: inherit;">TRUE</span>))</span></code></pre></div>
 }
 </style>
 
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
-<tr class="header gt_heading">
-<th colspan="2" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong><a href="https://www.nevertoosmall.com/">NeverTooSmall</a> Couches</strong></th>
+<tr class="gt_heading header">
+<td colspan="2" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong><a href="https://www.nevertoosmall.com/">NeverTooSmall</a> Couches</strong></td>
 </tr>
 </thead>
 <tbody class="gt_table_body">
@@ -4791,7 +4788,7 @@ It’s easy for a human to answer, “What color is this?” because our brains 
 <div class="cell">
 <details open="" class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> CouchColourClassification(BaseModel):</span>
@@ -4815,7 +4812,7 @@ background-color: null;
 font-style: inherit;">You will see a still from a video. What color is the couch in the image? Use a single word to describe the color, e.g. 'white', 'black', 'grey', 'beige', 'blue', 'green', 'red', 'brown', 'purple', 'yellow', 'orange', 'pink'. If the couch has multiple colors, choose the most prominent one. </span></span>
 <span id="cb2-6"><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"""</span></span></code></pre></div>
+font-style: inherit;">"""</span></span></code></pre></div></div>
 </details>
 </div>
 </section>
@@ -4830,7 +4827,7 @@ font-style: inherit;">"""</span></span></code></pre></div>
 </div>
 <p>Additionally, I used Quarto’s tabsets to group videos by couch color, so you can explore them below.</p>
 <div class="tabset-margin-container"></div><div class="cell panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Red Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Brown Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false">Black Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false">Blue Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" aria-controls="tabset-1-5" aria-selected="false">Green Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" aria-controls="tabset-1-6" aria-selected="false">White Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" aria-controls="tabset-1-7" aria-selected="false">Beige Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" aria-controls="tabset-1-8" aria-selected="false">Grey Couches</a></li></ul>
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Red Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Brown Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false" href="">Black Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false" href="">Blue Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" aria-controls="tabset-1-5" aria-selected="false" href="">Green Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" aria-controls="tabset-1-6" aria-selected="false" href="">White Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" aria-controls="tabset-1-7" aria-selected="false" href="">Beige Couches</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" aria-controls="tabset-1-8" aria-selected="false" href="">Grey Couches</a></li></ul>
 <div class="cell tab-content">
 <div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
 <div id="anhppyahlr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
@@ -9846,17 +9843,17 @@ Figure&nbsp;1: Question page.
 <p>Jesse Cambon has kindly made a package called <code>tidygeocoder</code> available on <a href="https://jessecambon.github.io/tidygeocoder/">github</a>.</p>
 <p>You can install it on your computer using the following code:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'tidygeocoder'</span>)</span></code></pre></div>
+font-style: inherit;">'tidygeocoder'</span>)</span></code></pre></div></div>
 </div>
 <p>Here is how you geocode a list of addresses using the <code>tidygeocoder</code> package.</p>
 <p>Note that <code>lat</code> and <code>long</code> here will be the column names for the coordinates that are returned.</p>
 <p>The line <code>method = "osm"</code> specifies that we are using the Open Street Map Nominatim API. Here you can switch to another engine if you prefer.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse) <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -9905,7 +9902,7 @@ font-style: inherit;">lat =</span> latitude,</span>
 <span id="cb2-13">        <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">long =</span> longitude</span>
-<span id="cb2-14">    )</span></code></pre></div>
+<span id="cb2-14">    )</span></code></pre></div></div>
 </div>
 <p>This what the output looks like when the geocoding is complete.</p>
 <blockquote class="blockquote">
@@ -9913,7 +9910,7 @@ Passing 20 addresses to the Nominatim single address geocoder [=================
 </blockquote>
 <p>We can visualize the results using the <code>ggplot2</code> package.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Find bounds to trim map, adding some padding</span></span>
 <span id="cb3-2">bounds <span class="ot" style="color: #003B4F;
@@ -10036,7 +10033,7 @@ font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">size =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Arbitrary value"</span>)</span></code></pre></div>
+font-style: inherit;">"Arbitrary value"</span>)</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -10710,7 +10707,7 @@ Note
 }
 </style>
 
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <colgroup>
 <col style="width: 7%">
 <col style="width: 7%">
@@ -10728,10 +10725,10 @@ Note
 <col style="width: 7%">
 </colgroup>
 <thead>
-<tr class="header gt_heading">
-<th colspan="14" class="gt_heading gt_title gt_font_normal gt_bottom_border">Selected series from Budget Reviews and Budget Speeches (2010-2022)</th>
+<tr class="gt_heading header">
+<td colspan="14" class="gt_heading gt_title gt_font_normal gt_bottom_border">Selected series from Budget Reviews and Budget Speeches (2010-2022)</td>
 </tr>
-<tr class="odd gt_col_headings">
+<tr class="gt_col_headings even">
 <th id="Key" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Key</th>
 <th id="2010" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">2010</th>
 <th id="2011" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">2011</th>
@@ -10995,18 +10992,18 @@ Note
 <p>Energy (kWh) = Energy (Joules) / 3.6e6</p>
 <p>Cost = Energy (kWh) * Cost per kWh</p>
 <p>Plugging in the numbers, we get the following calculation for the energy consumption of the kettle:</p>
-<p>Because of overfilling the kettle, we must raise the temperature of <span><span id="ojs-element-id-10"></span>g</span> of water by <span><span id="ojs-element-id-11"></span>°C</span> each time we boil the kettle, even if we only use <span><span id="ojs-element-id-12"></span>g</span> of water in our tea. The kettle requires <span><span id="ojs-element-id-27"></span></span> kilojoules of energy, or <span><span id="ojs-element-id-28"></span></span> kWh each time we boil it. This is equivalent to € <span><span id="ojs-element-id-29"></span></span> per day at <span><span id="ojs-element-id-13"></span></span> cups of tea per day.</p>
+<p>Because of overfilling the kettle, we must raise the temperature of <span><span id="ojs-element-id-10"></span>g</span> of water by <span><span id="ojs-element-id-11"></span>°C</span> each time we boil the kettle, even if we only use <span><span id="ojs-element-id-12"></span>g</span> of water in our tea. The kettle requires <span><span id="ojs-element-id-14"></span></span> kilojoules of energy, or <span><span id="ojs-element-id-15"></span></span> kWh each time we boil it. This is equivalent to € <span><span id="ojs-element-id-16"></span></span> per day at <span><span id="ojs-element-id-13"></span></span> cups of tea per day.</p>
 <p>For the Quooker, we get the following energy consumption:</p>
-<p>Because the Quooker uses 10 Watts to maintain the water at 110 degrees Celsius, it uses 0.24 kWh per day in standby. This is equivalent to € <span><span id="ojs-element-id-30"></span></span> per day. In addition, we have to heat <span><span id="ojs-element-id-14"></span>g</span> of water to 110 degrees Celsius, which requires <span><span id="ojs-element-id-31"></span></span> kilojoules of energy, or <span><span id="ojs-element-id-32"></span></span> kWh for each cup of tea. This is equivalent to € <span><span id="ojs-element-id-33"></span></span> per day at <span><span id="ojs-element-id-15"></span></span> cups of tea per day.</p>
-<p>So, the kettle uses € <span><span id="ojs-element-id-16"></span></span> per year, and the Quooker uses € <span><span id="ojs-element-id-17"></span></span> per year under our assumptions.</p>
-<p>Given then price of the Quooker at € <span><span id="ojs-element-id-18"></span></span> and the price of the kettle at € <span><span id="ojs-element-id-19"></span>,</span> the Quooker will pay for itself in <span><span id="ojs-element-id-20"></span></span> years.</p>
+<p>Because the Quooker uses 10 Watts to maintain the water at 110 degrees Celsius, it uses 0.24 kWh per day in standby. This is equivalent to € <span><span id="ojs-element-id-19"></span></span> per day. In addition, we have to heat <span><span id="ojs-element-id-17"></span>g</span> of water to 110 degrees Celsius, which requires <span><span id="ojs-element-id-20"></span></span> kilojoules of energy, or <span><span id="ojs-element-id-21"></span></span> kWh for each cup of tea. This is equivalent to € <span><span id="ojs-element-id-22"></span></span> per day at <span><span id="ojs-element-id-18"></span></span> cups of tea per day.</p>
+<p>So, the kettle uses € <span><span id="ojs-element-id-23"></span></span> per year, and the Quooker uses € <span><span id="ojs-element-id-24"></span></span> per year under our assumptions.</p>
+<p>Given then price of the Quooker at € <span><span id="ojs-element-id-25"></span></span> and the price of the kettle at € <span><span id="ojs-element-id-26"></span>,</span> the Quooker will pay for itself in <span><span id="ojs-element-id-27"></span></span> years.</p>
 </section>
 </section>
 <section id="find-out-for-yourself" class="level2">
 <h2 class="anchored" data-anchor-id="find-out-for-yourself">Find out for yourself</h2>
 <p>You can adjust any of these assumptions in the inputs below to see how they affect the result. The entire article is dynamic, so adjust the inputs and read it again from the top to see how the calculations change and what the payoff period is in your case!<sup>2</sup></p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="90" data-source-offset="0" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 89;"><span id="cb1-90"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="90" data-source-offset="0" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 89;"><span id="cb1-90"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> { aq<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -11014,7 +11011,7 @@ font-style: inherit;">,</span> op } <span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'@uwdata/arquero'</span></span></code></pre></div>
+font-style: inherit;">'@uwdata/arquero'</span></span></code></pre></div></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="declaration">
 
@@ -11022,7 +11019,7 @@ font-style: inherit;">'@uwdata/arquero'</span></span></code></pre></div>
 </div>
 </div>
 <div class="cell panel-input card bg-light p-2">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="96" data-source-offset="-0" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 95;"><span id="cb2-96">viewof kettle_efficiency<span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="96" data-source-offset="-0" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 95;"><span id="cb2-96">viewof kettle_efficiency<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> Inputs<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -11309,7 +11306,7 @@ background-color: null;
 font-style: inherit;">:</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Price of electricity per kWh (Euro):"</span>}</span>
-<span id="cb2-129">)</span></code></pre></div>
+<span id="cb2-129">)</span></code></pre></div></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -11361,7 +11358,7 @@ font-style: inherit;">"Price of electricity per kWh (Euro):"</span>}</span>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="133" data-source-offset="-0" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 132;"><span id="cb3-133">c <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="133" data-source-offset="-0" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 132;"><span id="cb3-133">c <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
 background-color: null;
@@ -11708,7 +11705,7 @@ font-style: inherit;">100</span>) <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">100</span></span></code></pre></div>
+font-style: inherit;">100</span></span></code></pre></div></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-3-1" data-nodetype="declaration">
@@ -11921,7 +11918,7 @@ font-style: inherit;">100</span></span></code></pre></div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="172" data-source-offset="-1" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 171;"><span id="cb4-172">dt <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="172" data-source-offset="-1" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 171;"><span id="cb4-172">dt <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> aq<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -12230,7 +12227,7 @@ background-color: null;
 font-style: inherit;">:</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'key'</span>})</span>
-<span id="cb4-202">  ]})</span></code></pre></div>
+<span id="cb4-202">  ]})</span></code></pre></div></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-4-1" data-nodetype="declaration">
@@ -12278,18 +12275,18 @@ font-style: inherit;">'key'</span>})</span>
 </tr>
 <tr class="even">
 <td>kWh wasted per day</td>
-<td><span><span id="ojs-element-id-21"></span></span> kWh</td>
-<td><span><span id="ojs-element-id-22"></span></span> kWh</td>
+<td><span><span id="ojs-element-id-28"></span></span> kWh</td>
+<td><span><span id="ojs-element-id-29"></span></span> kWh</td>
 </tr>
 <tr class="odd">
 <td>Percentage of total energy</td>
-<td><span><span id="ojs-element-id-23"></span>%</span></td>
-<td><span><span id="ojs-element-id-24"></span>%</span></td>
+<td><span><span id="ojs-element-id-30"></span>%</span></td>
+<td><span><span id="ojs-element-id-31"></span>%</span></td>
 </tr>
 <tr class="even">
 <td>Cost of waste per year</td>
-<td>€ <span><span id="ojs-element-id-25"></span></span></td>
-<td>€ <span><span id="ojs-element-id-26"></span></span></td>
+<td>€ <span><span id="ojs-element-id-32"></span></span></td>
+<td>€ <span><span id="ojs-element-id-33"></span></span></td>
 </tr>
 </tbody>
 </table>
@@ -12304,7 +12301,7 @@ font-style: inherit;">'key'</span>})</span>
 <h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
 <p>I have assumed that the water in the kettle cools completely between each boil. This would require 2 hours between each boil, assuming an ambient temperature of 20 degrees Celsius and a cooling constant of 0.02. The cooling constant would change based on the specific kettle/environment. See the code below for the simulation.</p>
 <div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
 background-color: null;
@@ -12400,7 +12397,7 @@ font-style: inherit;">'Cooling of Boiled Water in a Kettle Over Time'</span>)</s
 <span id="cb5-24">plt.grid(<span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">True</span>)</span>
-<span id="cb5-25">plt.show()</span></code></pre></div>
+<span id="cb5-25">plt.show()</span></code></pre></div></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -12415,7 +12412,7 @@ font-style: inherit;">True</span>)</span>
 
 <div class="ojs-auto-generated hidden">
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6WyAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7eWVhcnNfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtjdXBzX3Blcl9kYXl9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtrZXR0bGVfZWZmaWNpZW5jeX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTMifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1F1b29rZXJfZWZmaWNpZW5jeX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTQifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2N1cHNfcGVyX2RheX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTUifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2tldHRsZV9vdmVyZmlsbH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTYifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2tldHRsZV9wcmljZX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTcifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1F1b29rZXJfcHJpY2V9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC04In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtlbGVjdHJpY2l0eV9wcmljZX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTkifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke21hc3Nfa2V0dGxlfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTAifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1RfY2hhbmdlfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTEifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke21hc3NfdGVhfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTIifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2N1cHNfcGVyX2RheX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTEzIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHttYXNzX3RlYX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTE0In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtjdXBzX3Blcl9kYXl9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xNSJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7a2V0dGxlX2Nvc3RfeWVhcmx5X3JvdW5kfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTYifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1F1b29rZXJfY29zdF95ZWFybHlfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xNyJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7UXVvb2tlcl9wcmljZX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTE4In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtrZXR0bGVfcHJpY2V9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xOSJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7eWVhcnNfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yMCJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7dG90YWxfa2V0dGxlX2VuZXJneV93YXN0ZWRfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yMSJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7UV9RdW9va2VyX3dhc3RlZH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTIyIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtwZXJjZW50YWdlX2tldHRsZV9lbmVyZ3lfd2FzdGVkfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjMifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke3BlcmNlbnRhZ2VfUXVvb2tlcl9lbmVyZ3lfd2FzdGVkX3JvdW5kfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjQifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke3RvdGFsX2tldHRsZV9lbmVyZ3lfd2FzdGVkX2Nvc3Rfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yNSJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7dG90YWxfUXVvb2tlcl9lbmVyZ3lfd2FzdGVkX2Nvc3Rfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yNiJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7TWF0aC5yb3VuZChRX2tldHRsZSkgLyAxMDAwfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjcifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke01hdGgucm91bmQoUV9rZXR0bGVfa1doICogMTAwKSAvIDEwMH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTI4In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtNYXRoLnJvdW5kKGtldHRsZV9jb3N0X2RhaWx5ICogMTAwKSAvMTAwfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjkifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke01hdGgucm91bmQoMC4yNCAqIGVsZWN0cmljaXR5X3ByaWNlICogMTAwKS8xMDB9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0zMCJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7TWF0aC5yb3VuZChRX1F1b29rZXIpIC8gMTAwMH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTMxIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtNYXRoLnJvdW5kKFFfUXVvb2tlcl9rV2ggKiAxMDApIC8gMTAwfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMzIifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke01hdGgucm91bmQoUXVvb2tlcl9jb3N0X2RhaWx5ICogMTAwKSAvIDEwMH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTMzIn1dfQ==
+eyJjb250ZW50cyI6WyAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7eWVhcnNfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtjdXBzX3Blcl9kYXl9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtrZXR0bGVfZWZmaWNpZW5jeX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTMifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1F1b29rZXJfZWZmaWNpZW5jeX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTQifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2N1cHNfcGVyX2RheX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTUifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2tldHRsZV9vdmVyZmlsbH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTYifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2tldHRsZV9wcmljZX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTcifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1F1b29rZXJfcHJpY2V9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC04In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtlbGVjdHJpY2l0eV9wcmljZX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTkifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke21hc3Nfa2V0dGxlfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTAifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke1RfY2hhbmdlfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTEifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke21hc3NfdGVhfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTIifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2N1cHNfcGVyX2RheX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTEzIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtNYXRoLnJvdW5kKFFfa2V0dGxlKSAvIDEwMDB9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xNCJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7TWF0aC5yb3VuZChRX2tldHRsZV9rV2ggKiAxMDApIC8gMTAwfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTUifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke01hdGgucm91bmQoa2V0dGxlX2Nvc3RfZGFpbHkgKiAxMDApIC8xMDB9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xNiJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7bWFzc190ZWF9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xNyJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7Y3Vwc19wZXJfZGF5fTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMTgifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke01hdGgucm91bmQoMC4yNCAqIGVsZWN0cmljaXR5X3ByaWNlICogMTAwKS8xMDB9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xOSJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7TWF0aC5yb3VuZChRX1F1b29rZXIpIC8gMTAwMH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTIwIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtNYXRoLnJvdW5kKFFfUXVvb2tlcl9rV2ggKiAxMDApIC8gMTAwfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjEifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke01hdGgucm91bmQoUXVvb2tlcl9jb3N0X2RhaWx5ICogMTAwKSAvIDEwMH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTIyIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtrZXR0bGVfY29zdF95ZWFybHlfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0yMyJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7UXVvb2tlcl9jb3N0X3llYXJseV9yb3VuZH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTI0In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtRdW9va2VyX3ByaWNlfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjUifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke2tldHRsZV9wcmljZX08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTI2In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHt5ZWFyc19yb3VuZH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTI3In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHt0b3RhbF9rZXR0bGVfZW5lcmd5X3dhc3RlZF9yb3VuZH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTI4In0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHtRX1F1b29rZXJfd2FzdGVkfTwvc3Bhbj5gIiwgImNlbGxOYW1lIjoib2pzLWVsZW1lbnQtaWQtMjkifSwgIHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImlubGluZSI6InRydWUiLCJzb3VyY2UiOiJodGwuaHRtbGA8c3Bhbj4ke3BlcmNlbnRhZ2Vfa2V0dGxlX2VuZXJneV93YXN0ZWR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0zMCJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7cGVyY2VudGFnZV9RdW9va2VyX2VuZXJneV93YXN0ZWRfcm91bmR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0zMSJ9LCAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7dG90YWxfa2V0dGxlX2VuZXJneV93YXN0ZWRfY29zdF9yb3VuZH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTMyIn0sICB7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJpbmxpbmUiOiJ0cnVlIiwic291cmNlIjoiaHRsLmh0bWxgPHNwYW4+JHt0b3RhbF9RdW9va2VyX2VuZXJneV93YXN0ZWRfY29zdF9yb3VuZH08L3NwYW4+YCIsICJjZWxsTmFtZSI6Im9qcy1lbGVtZW50LWlkLTMzIn1dfQ==
 </script>
 </div>
 </section>
@@ -12623,7 +12620,7 @@ eyJjb250ZW50cyI6WyAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNv
 <p><strong>Great, thank you, can you extract the occupations he held and the dates for which he held them, and return the output in an R tibble with a column for start year, a column for end year (if any), a column for the Swedish description of the occupation, and a column for the English translation.</strong></p>
 <p>It returns the following R code:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"></span>
@@ -12761,7 +12758,7 @@ font-style: inherit;">"Member of the Directorate of the Gymnastics Central Insti
 background-color: null;
 font-style: inherit;">"Chairman of the 1936 Food Legislation Committee."</span></span>
 <span id="cb1-20">  )</span>
-<span id="cb1-21">)</span></code></pre></div>
+<span id="cb1-21">)</span></code></pre></div></div>
 </div>
 </section>
 <section id="displaying-the-output" class="level2 page-columns page-full">
@@ -12772,7 +12769,7 @@ font-style: inherit;">"Chairman of the 1936 Food Legislation Committee."</span><
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(gt)</span>
 <span id="cb2-2"></span>
@@ -12877,7 +12874,7 @@ font-style: inherit;">tab_source_note</span>(<span class="fu" style="color: #475
 background-color: null;
 font-style: inherit;">md</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Data source: [Projekt Runeberg](http://runeberg.org/vemarvem/sthlm45/0018.html)"</span>))</span></code></pre></div>
+font-style: inherit;">"Data source: [Projekt Runeberg](http://runeberg.org/vemarvem/sthlm45/0018.html)"</span>))</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div id="ktvcdxvbpj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
@@ -13381,7 +13378,7 @@ font-style: inherit;">"Data source: [Projekt Runeberg](http://runeberg.org/vemar
 <div class="cell page-columns page-full">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">occupations <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">occupations <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb3-2">  <span class="fu" style="color: #4758AB;
@@ -13565,7 +13562,7 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">28</span>)</span>
-<span id="cb3-29">  )</span></code></pre></div>
+<span id="cb3-29">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display page-columns page-full">
 <div class="page-columns page-full">
@@ -13607,7 +13604,7 @@ font-style: inherit;">28</span>)</span>
 <h3 class="anchored" data-anchor-id="getting-started">Getting started</h3>
 <p>We load the <code>tidyverse</code> for data manipulation, the <code>sf</code> package fo working with maps and set the ggplot theme to a light one for more attractive plots.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
@@ -13617,7 +13614,7 @@ font-style: inherit;">library</span>(sf)</span>
 background-color: null;
 font-style: inherit;">theme_set</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">theme_light</span>())</span></code></pre></div>
+font-style: inherit;">theme_light</span>())</span></code></pre></div></div>
 </div>
 </section>
 <section id="read-in-the-shapefiles" class="level3 page-columns page-full">
@@ -13626,7 +13623,7 @@ font-style: inherit;">theme_light</span>())</span></code></pre></div>
 <p>For Sweden we can see we are told in he last line <strong>Projected CRS: SWEREF99 TM</strong>.</p>
 <p><strong>SWEREF99 TM</strong> a projection favoured by the statistics body in Sweden.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">sweden_map <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">sweden_map <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -13645,7 +13642,7 @@ background-color: null;
 font-style: inherit;">"data"</span>,</span>
 <span id="cb2-4">                                 <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"sweden_map.shp"</span>))</span></code></pre></div>
+font-style: inherit;">"sweden_map.shp"</span>))</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Reading layer `sweden_map' from data source 
   `C:\Users\User\Documents\Recon\interlude-one\posts\2023-01-31-map-projections\data\sweden_map.shp' 
@@ -13659,7 +13656,7 @@ Projected CRS: SWEREF99 TM</code></pre>
 </div>
 <p>For Norway it is <strong>WGS 84</strong>, a very common projection with full name <strong>World Geodetic System 1984</strong>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">norway_map <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">norway_map <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -13678,7 +13675,7 @@ background-color: null;
 font-style: inherit;">"data"</span>, </span>
 <span id="cb4-4">                                 <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"norway_map.shp"</span>))</span></code></pre></div>
+font-style: inherit;">"norway_map.shp"</span>))</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Reading layer `norway_map' from data source 
   `C:\Users\User\Documents\Recon\interlude-one\posts\2023-01-31-map-projections\data\norway_map.shp' 
@@ -13691,7 +13688,7 @@ Geodetic CRS:  WGS 84</code></pre>
 </div>
 </div>
 <p>Let’s have a quick look at them side by side.</p>
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>()<span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -13738,7 +13735,7 @@ font-style: inherit;">"Norway"</span>,</span>
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"CRS = WGS84"</span>)</span></code></pre></div>
+font-style: inherit;">"CRS = WGS84"</span>)</span></code></pre></div></div>
 <div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
@@ -13765,7 +13762,7 @@ font-style: inherit;">"CRS = WGS84"</span>)</span></code></pre></div>
 <p>We’ll use EPSG 4326 or WGS84. We can use the <code>st_transform()</code> function, specifying the crs that we want for our new map object, which we name <code>sweden_map_4326</code> to avoid confusion.</p>
 <p>This is what the CRS now looks like for Sweden - the same as the one for Norway.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">sweden_map_4326 <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">sweden_map_4326 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -13780,7 +13777,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb7-4">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">st_crs</span>()</span></code></pre></div>
+font-style: inherit;">st_crs</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Coordinate Reference System:
   User input: EPSG:4326 
@@ -13810,7 +13807,7 @@ GEOGCRS["WGS 84",
 <h3 class="anchored" data-anchor-id="lets-plot-them-together">Let’s plot them together</h3>
 <p>We can plot the together and choose some nice colours from the national flags for the fill aesthetic.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -13834,7 +13831,7 @@ font-style: inherit;">data =</span> norway_map, <span class="at" style="color: #
 background-color: null;
 font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#B40C2E"</span>)</span></code></pre></div>
+font-style: inherit;">"#B40C2E"</span>)</span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -13849,7 +13846,7 @@ font-style: inherit;">"#B40C2E"</span>)</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="write-out-the-file-for-sweden-individually">Write out the file for Sweden individually</h3>
 <p>We can save the shapefile for Sweden with the <code>st_write()</code> command if we want to keep the maps separate.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">sweden_map_4326 <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">sweden_map_4326 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb10-2">  <span class="fu" style="color: #4758AB;
@@ -13873,7 +13870,7 @@ font-style: inherit;">"sweden_map_4326.shp"</span>), <span class="at" style="col
 background-color: null;
 font-style: inherit;">delete_dsn =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">TRUE</span>)</span></code></pre></div>
+font-style: inherit;">TRUE</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Deleting source `C:/Users/User/Documents/Recon/interlude-one/posts/2023-01-31-map-projections/data/sweden_map_4326.shp' using driver `ESRI Shapefile'
 Writing layer `sweden_map_4326' to data source 
@@ -13887,7 +13884,7 @@ Writing 1 features with 63 fields and geometry type Multi Polygon.</code></pre>
 <p>Alternatively we can join together the maps as one object and then save one shapefile with the maps combined.</p>
 <p>To do this, we first bind the two objects together using <code>bind_rows()</code> command and write it out with the same <code>st_write()</code> command.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">combined_map <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">combined_map <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -13916,7 +13913,7 @@ font-style: inherit;">"shapefile_combined.shp"</span>), <span class="at" style="
 background-color: null;
 font-style: inherit;">delete_dsn =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">TRUE</span>)</span></code></pre></div>
+font-style: inherit;">TRUE</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Deleting source `C:/Users/User/Documents/Recon/interlude-one/posts/2023-01-31-map-projections/data/shapefile_combined.shp' using driver `ESRI Shapefile'
 Writing layer `shapefile_combined' to data source 
@@ -13926,14 +13923,14 @@ Writing 2 features with 63 fields and geometry type Multi Polygon.</code></pre>
 </div>
 <p>If we want to get rid of the borders between our objects, we can use the <code>st_union()</code> command:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">union_map <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">union_map <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">st_union</span>(norway_map, sweden_map_4326)</span></code></pre></div>
+font-style: inherit;">st_union</span>(norway_map, sweden_map_4326)</span></code></pre></div></div>
 </div>
 <p>We can compare the outputs here:</p>
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Combined map</span></span>
 <span id="cb15-2"><span class="fu" style="color: #4758AB;
@@ -14008,7 +14005,7 @@ font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Country"</span>)</span></code></pre></div>
+font-style: inherit;">"Country"</span>)</span></code></pre></div></div>
 <div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
@@ -14087,7 +14084,7 @@ font-style: inherit;">"Country"</span>)</span></code></pre></div>
 <p>Have a look at each below, and then give my Shiny app a gander (TODO).</p>
 <div class="column-page">
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Americas</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Asia</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false">Europe</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false">Oceania</a></li></ul>
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Americas</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Asia</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false" href="">Europe</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false" href="">Oceania</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
 <div class="cell-output-display">
@@ -14216,7 +14213,7 @@ font-style: inherit;">"Country"</span>)</span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># preamble</span></span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
@@ -14307,14 +14304,14 @@ font-style: inherit;">filter</span>(<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>ID <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">%in%</span> country_to_remove)</span></code></pre></div>
+font-style: inherit;">%in%</span> country_to_remove)</span></code></pre></div></div>
 </details>
 </div>
 <p>The base map is projected with the Web Mercator or WGS 84 projection, the same one Google Maps uses.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">map <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">map <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb2-2">  <span class="fu" style="color: #4758AB;
@@ -14324,7 +14321,7 @@ background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb2-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">geom_sf</span>()</span></code></pre></div>
+font-style: inherit;">geom_sf</span>()</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -14341,7 +14338,7 @@ font-style: inherit;">geom_sf</span>()</span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">df <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">df <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -14372,14 +14369,14 @@ font-style: inherit;">%&gt;%</span> </span>
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">clean_names</span>()</span></code></pre></div>
+font-style: inherit;">clean_names</span>()</span></code></pre></div></div>
 </details>
 </div>
 <p>Next we remove the summary groups which we cannot show on the map, including the World Bank country income groupings.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">df <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">df <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb4-2">  <span class="fu" style="color: #4758AB;
@@ -14395,7 +14392,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb4-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">distinct</span>(entity)</span></code></pre></div>
+font-style: inherit;">distinct</span>(entity)</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 16 × 1
@@ -14420,7 +14417,7 @@ font-style: inherit;">distinct</span>(entity)</span></code></pre></div>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">df <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">df <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> df <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -14431,7 +14428,7 @@ font-style: inherit;">filter</span>(code <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> map<span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">$</span>code)</span></code></pre></div>
+font-style: inherit;">$</span>code)</span></code></pre></div></div>
 </details>
 </div>
 </section>
@@ -14441,7 +14438,7 @@ font-style: inherit;">$</span>code)</span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">df <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">df <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb7-2">  <span class="fu" style="color: #4758AB;
@@ -14457,7 +14454,7 @@ background-color: null;
 font-style: inherit;">max =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">max</span>(value)</span>
-<span id="cb7-5">  )</span></code></pre></div>
+<span id="cb7-5">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 1 × 2
@@ -14467,7 +14464,7 @@ font-style: inherit;">max</span>(value)</span>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(viridisLite) </span>
 <span id="cb9-2"></span>
@@ -14550,7 +14547,7 @@ font-style: inherit;">name =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"value"</span></span>
 <span id="cb9-16">  )</span>
-<span id="cb9-17">}</span></code></pre></div>
+<span id="cb9-17">}</span></code></pre></div></div>
 </details>
 </div>
 </section>
@@ -14566,7 +14563,7 @@ font-style: inherit;">"value"</span></span>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Here the function to plot the line takes only one argument, `cd` the country code </span></span>
 <span id="cb10-2">plot_line <span class="ot" style="color: #003B4F;
@@ -14792,7 +14789,7 @@ font-style: inherit;"># Test the function with India.</span></span>
 background-color: null;
 font-style: inherit;">plot_line</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"IND"</span>)</span></code></pre></div>
+font-style: inherit;">"IND"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -14809,7 +14806,7 @@ font-style: inherit;">"IND"</span>)</span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(gt)</span>
 <span id="cb11-2"><span class="fu" style="color: #4758AB;
@@ -15012,7 +15009,7 @@ font-style: inherit;"># Test on South Africa</span></span>
 background-color: null;
 font-style: inherit;">make_table</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"ZAF"</span>)</span></code></pre></div>
+font-style: inherit;">"ZAF"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div id="aehsgovhtc" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
@@ -15421,14 +15418,14 @@ font-style: inherit;">"ZAF"</span>)</span></code></pre></div>
 }
 </style>
   
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<table class="gt_table caption-top table table-sm table-striped small">
 <colgroup>
 <col style="width: 50%">
 <col style="width: 50%">
 </colgroup>
 <thead class="gt_header">
 <tr class="header">
-<th colspan="2" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong>South Africa</strong></th>
+<td colspan="2" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong>South Africa</strong></td>
 </tr>
 </thead>
 <tbody class="gt_table_body">
@@ -15457,7 +15454,7 @@ font-style: inherit;">"ZAF"</span>)</span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">gt_tables <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">gt_tables <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> df <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -15477,14 +15474,14 @@ font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">map</span>(code, make_table))</span>
 <span id="cb12-4"></span>
-<span id="cb12-5">gt_tables</span></code></pre></div>
+<span id="cb12-5">gt_tables</span></code></pre></div></div>
 </details>
 </div>
 <p>We then create a tibble called <code>df_map</code> that selects the most recent year for each country from the dataset and joins it to the map by the country code variable we created above. Finally we join this to the tibble of tables called <code>gt_tables</code>.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1">df_map <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1">df_map <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> df <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -15525,7 +15522,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb13-8">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">inner_join</span>(gt_tables)</span></code></pre></div>
+font-style: inherit;">inner_join</span>(gt_tables)</span></code></pre></div></div>
 </details>
 </div>
 </section>
@@ -15536,7 +15533,7 @@ font-style: inherit;">inner_join</span>(gt_tables)</span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">g <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">g <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> df_map <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -15739,7 +15736,7 @@ background-color: null;
 font-style: inherit;">legend.title.align =</span> .<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">5</span></span>
-<span id="cb14-22">  )</span></code></pre></div>
+<span id="cb14-22">  )</span></code></pre></div></div>
 </details>
 </div>
 <div class="cell">
@@ -15758,7 +15755,7 @@ font-style: inherit;">5</span></span>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># customizing the CSS makes the hover box easier to read.</span></span>
 <span id="cb15-2">tooltip_css <span class="ot" style="color: #003B4F;
@@ -15791,7 +15788,7 @@ font-style: inherit;">width =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>)</span>
 <span id="cb15-9">  )</span>
-<span id="cb15-10">)</span></code></pre></div>
+<span id="cb15-10">)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div id="htmlwidget-a2b6fe035431c745ea48" style="width:100%;height:464px;" class="girafe html-widget"></div>
@@ -15805,7 +15802,7 @@ font-style: inherit;">1</span>)</span>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">get_ranking <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">get_ranking <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -15971,13 +15968,13 @@ font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">get_ranking</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Africa"</span>)</span></code></pre></div>
+font-style: inherit;">"Africa"</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1">plot_levels <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1">plot_levels <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -16346,7 +16343,7 @@ font-style: inherit;">"Africa"</span>,</span>
 background-color: null;
 font-style: inherit;">highlight_country_in =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"South Africa"</span>)</span></code></pre></div>
+font-style: inherit;">"South Africa"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -16357,9 +16354,9 @@ font-style: inherit;">"South Africa"</span>)</span></code></pre></div>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># dev.off()</span></span></code></pre></div>
+font-style: inherit;"># dev.off()</span></span></code></pre></div></div>
 </details>
 </div>
 <p>Hmm, South Africa has seen a drop in smoking since 2000, but the drop is relatively small in comparison to the progress that other African nations have made in the last two decades.</p>
@@ -16367,7 +16364,7 @@ font-style: inherit;"># dev.off()</span></span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">plot_ranking <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">plot_ranking <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -16738,7 +16735,7 @@ font-style: inherit;">plot_ranking</span>(<span class="st" style="color: #20794D
 background-color: null;
 font-style: inherit;">"Africa"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"South Africa"</span>)</span></code></pre></div>
+font-style: inherit;">"South Africa"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -16749,9 +16746,9 @@ font-style: inherit;">"South Africa"</span>)</span></code></pre></div>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># dev.off()</span></span></code></pre></div>
+font-style: inherit;"># dev.off()</span></span></code></pre></div></div>
 </details>
 </div>
 <p>Now we can see that South Africa has climbed the rankings from 18th place in 2000 up to 7th in 2020. Interesting!</p>
@@ -16762,7 +16759,7 @@ font-style: inherit;"># dev.off()</span></span></code></pre></div>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">make_tab <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">make_tab <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -16838,11 +16835,11 @@ background-color: null;
 font-style: inherit;">"</span>) <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Close tab</span></span>
-<span id="cb21-16">}</span></code></pre></div>
+<span id="cb21-16">}</span></code></pre></div></div>
 </details>
 </div>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Americas</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Asia</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false">Europe</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false">Oceania</a></li></ul>
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Americas</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Asia</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false" href="">Europe</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false" href="">Oceania</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
 <div class="cell-output-display">
@@ -16861,13 +16858,13 @@ font-style: inherit;"># Close tab</span></span>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">make_tab</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Asia"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"China"</span>)</span></code></pre></div>
+font-style: inherit;">"China"</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
@@ -16887,13 +16884,13 @@ font-style: inherit;">"China"</span>)</span></code></pre></div>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">make_tab</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Europe"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Sweden"</span>)</span></code></pre></div>
+font-style: inherit;">"Sweden"</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div id="tabset-1-3" class="tab-pane" aria-labelledby="tabset-1-3-tab">
@@ -16913,13 +16910,13 @@ font-style: inherit;">"Sweden"</span>)</span></code></pre></div>
 </div>
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">make_tab</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Oceania"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"New Zealand"</span>)</span></code></pre></div>
+font-style: inherit;">"New Zealand"</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div id="tabset-1-4" class="tab-pane" aria-labelledby="tabset-1-4-tab">
@@ -17043,18 +17040,18 @@ font-style: inherit;">"New Zealand"</span>)</span></code></pre></div>
 <p>To start, let’s load the necessary packages :</p>
 </blockquote>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">library</span>(broom)</span></code></pre></div>
+font-style: inherit;">library</span>(broom)</span></code></pre></div></div>
 </div>
 <blockquote class="blockquote">
 <p>Next, we’ll load the Palmer Penguins dataset and take a look at the variables we have to work with:</p>
 </blockquote>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(palmerpenguins)</span>
 <span id="cb2-2"><span class="fu" style="color: #4758AB;
@@ -17065,7 +17062,7 @@ font-style: inherit;">"penguins"</span>)</span>
 <span id="cb2-3"></span>
 <span id="cb2-4"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>(penguins)</span></code></pre></div>
+font-style: inherit;">head</span>(penguins)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 8
   species island    bill_length_mm bill_depth_mm flipper_l…¹ body_…² sex    year
@@ -17084,7 +17081,7 @@ font-style: inherit;">head</span>(penguins)</span></code></pre></div>
 <p>To understand the coefficient plot, we’ll start by using the ggplot function to specify the data and the aesthetics for a scatter plot. We’ll set the x variable to be bill_length_mm and the y variable to be body_mass_g.</p>
 </blockquote>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -17094,7 +17091,7 @@ font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> bill_length_mm, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">y =</span> body_mass_g))</span></code></pre></div>
+font-style: inherit;">y =</span> body_mass_g))</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -17107,7 +17104,7 @@ font-style: inherit;">y =</span> body_mass_g))</span></code></pre></div>
 <p>Now we’ll add the geom_point layer to plot the data points and the geom_smooth layer to add a smooth line of best fit.</p>
 </blockquote>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -17127,7 +17124,7 @@ background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb5-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">geom_smooth</span>()</span></code></pre></div>
+font-style: inherit;">geom_smooth</span>()</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -17141,7 +17138,7 @@ font-style: inherit;">geom_smooth</span>()</span></code></pre></div>
 <p>Next, we can use the lm() command to run a regression analysis on the data, using bill length as the predictor variable and body mass as the outcome variable. We can then use the broom::tidy() function with the conf.int = TRUE argument to extract the regression results, including the confidence intervals for the coefficients:</p>
 </blockquote>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">reg_results <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">reg_results <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -17160,14 +17157,14 @@ font-style: inherit;">tidy</span>(reg_results, <span class="at" style="color: #6
 background-color: null;
 font-style: inherit;">conf.int =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">TRUE</span>)</span></code></pre></div>
+font-style: inherit;">TRUE</span>)</span></code></pre></div></div>
 </div>
 <blockquote class="blockquote">
 <p>Now that we have the regression results, we can use ggplot to create our coefficient plot.</p>
 <p>To add the error bars, we’ll use the geom_errorbarh() geometry and specify the xmin and xmax aesthetics as the lower and upper bounds of the confidence intervals, respectively:</p>
 </blockquote>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(reg_tidy, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -17191,7 +17188,7 @@ font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">xmin =</span> conf.low, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">xmax =</span> conf.high))</span></code></pre></div>
+font-style: inherit;">xmax =</span> conf.high))</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -17210,7 +17207,7 @@ font-style: inherit;">xmax =</span> conf.high))</span></code></pre></div>
 <p>This was a fantastic tutorial and written up in a way that is relatively easy to understand too. I enjoyed the use of succinct variable names and how to the point the write up was.</p>
 <p>The only things I added in my own post on Friday were a dotted line at zero, a title, and some axis labels. This is shown below.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(reg_tidy, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -17268,7 +17265,7 @@ background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Coefficient plot with error bars"</span></span>
-<span id="cb8-9">  )</span></code></pre></div>
+<span id="cb8-9">  )</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -17316,7 +17313,7 @@ font-style: inherit;">"Coefficient plot with error bars"</span></span>
 <h3 class="anchored" data-anchor-id="basic-regression">Basic regression</h3>
 <p>We begin with a basic regression where our dependent variable is penguin body weight in grams, and independent variables are the dimensions of the penguins’ bills, flipper length, as well as species and sex.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
@@ -17358,7 +17355,7 @@ font-style: inherit;">+</span> sex, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> .)</span>
 <span id="cb1-10"></span>
-<span id="cb1-11">basic_reg</span></code></pre></div>
+<span id="cb1-11">basic_reg</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -17378,7 +17375,7 @@ Coefficients:
 <h3 class="anchored" data-anchor-id="tidy-with-broom-package">Tidy with <strong>broom</strong> package</h3>
 <p>We can use the <a href="https://broom.tidymodels.org/"><strong>broom</strong></a> package to return a <code>tibble</code>, a neat data object that is easy to work with.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(broom)</span>
 <span id="cb3-2"></span>
@@ -17408,7 +17405,7 @@ font-style: inherit;">%&gt;%</span> </span>
 background-color: null;
 font-style: inherit;">tidy</span>()</span>
 <span id="cb3-6"></span>
-<span id="cb3-7">tidy_reg</span></code></pre></div>
+<span id="cb3-7">tidy_reg</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 7 × 5
   term              estimate std.error statistic  p.value
@@ -17428,7 +17425,7 @@ font-style: inherit;">tidy</span>()</span>
 <h3 class="anchored" data-anchor-id="coefficient-plot">Coefficient plot</h3>
 <p>Let’s try and make a coefficient plot.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">tidy_reg <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">tidy_reg <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb5-2">  <span class="fu" style="color: #4758AB;
@@ -17498,7 +17495,7 @@ background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Coefficient plot"</span></span>
-<span id="cb5-13">  )</span></code></pre></div>
+<span id="cb5-13">  )</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -17514,7 +17511,7 @@ font-style: inherit;">"Coefficient plot"</span></span>
 <h3 class="anchored" data-anchor-id="error-bars">Error bars</h3>
 <p>To get the error bars, we specify that we want a confidence interval when we use the <code>tidy</code> command from the <strong>broom</strong> package, like so: <code>tidy(conf.int = TRUE)</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">tidy_reg_conf_int <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">tidy_reg_conf_int <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> df <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -17544,7 +17541,7 @@ font-style: inherit;">conf.int =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">TRUE</span>)</span>
 <span id="cb6-4"></span>
-<span id="cb6-5">tidy_reg_conf_int</span></code></pre></div>
+<span id="cb6-5">tidy_reg_conf_int</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 7 × 7
   term              estimate std.error statistic  p.value conf.low conf.high
@@ -17561,7 +17558,7 @@ font-style: inherit;">TRUE</span>)</span>
 <p>Now in our <code>tibble</code> we get columns called <code>conf.low</code> and <code>conf.high</code>.</p>
 <p>To plot these, we use an additional geometry in our ggplot, called <code>geom_errorbarh</code>. Here the <code>h</code> at the end specifies we want it in the horizontal direction. We map the <code>conf.low</code> and <code>conf.high</code> variables to <code>xmin</code> and <code>xmax</code> respectively.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">tidy_reg_conf_int <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">tidy_reg_conf_int <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb8-2">  <span class="fu" style="color: #4758AB;
@@ -17642,7 +17639,7 @@ background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Coefficient plot with error bars"</span></span>
-<span id="cb8-14">  )</span></code></pre></div>
+<span id="cb8-14">  )</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -17658,7 +17655,7 @@ font-style: inherit;">"Coefficient plot with error bars"</span></span>
 <p>Finally, let’s facet the variables by type.</p>
 <p>We use the <code>case_when</code> command from <strong>dplyr</strong> to call any variable containing <code>mm</code> a numeric variable, and the others categorical. We colour our bars and points by variable type, and <code>facet_wrap</code> to make a small multiple chart. This makes it easy to differentiate between the different types of variables.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">tidy_reg_conf_int <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">tidy_reg_conf_int <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb9-2">  <span class="fu" style="color: #4758AB;
@@ -17801,7 +17798,7 @@ background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"By variable type"</span></span>
-<span id="cb9-24">  )</span></code></pre></div>
+<span id="cb9-24">  )</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
